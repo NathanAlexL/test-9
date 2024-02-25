@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educours - Accueil</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f5e99f;
+            font-family: Georgia, serif;
+        }
+        header {
+            background-color: #f5e99f;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #1c2361;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 24px;
+            color: #1c2361;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #1c2361;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        a {
+            color: #1c2361;
+            text-decoration: none;
+        }
+        blockquote {
+            font-size: 18px;
+            color: #1c2361;
+            margin-top: 50px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="logo.png" alt="Logo Educours">
-            <h1 style="color: #1c2361; font-family: Georgia, serif; font-weight: bold;">EDUCOURS</h1>
-            <h2 style="color: #1c2361; font-family: Georgia, serif;">Pour une éducation collective</h2>
-            <button id="login-button" style="background-color: #1c2361;">Se connecter</button>
-            <a href="/inscription" style="color: #1c2361;">Pas de compte ? Créer un compte</a>
-        </div>
+        <img src="logo.png" alt="Logo Educours">
+        <h1>Educours</h1>
+        <h2>Pour une éducation collective</h2>
+        <button id="login-button">Se connecter</button>
+        <a href="/inscription">Pas de compte ? Créer un compte</a>
     </header>
     <main>
-        <div class="container">
-            <blockquote>
-                <p style="color: #1c2361;">"L'éducation est l'arme la plus puissante qu'on puisse utiliser pour changer le monde." - Nelson Mandela</p>
-            </blockquote>
-        </div>
+        <blockquote>
+            <p>"L'éducation est l'arme la plus puissante qu'on puisse utiliser pour changer le monde." - Nelson Mandela</p>
+        </blockquote>
     </main>
     <script src="accueil.js"></script>
 </body>
